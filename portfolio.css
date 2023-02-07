@@ -1,0 +1,32 @@
+/* reset browser default stylings*/
+
+* {
+	margin: 0;
+  padding: 0;
+}
+
+
+/* style nav bar */
+
+nav li {
+
+	list-style: none;
+	display: inline;
+	text-decoration: none;
+	
+
+}
+
+nav a {
+	text-align: center;
+
+	text-decoration: none;
+	color: black;
+
+}
+
+nav ul {
+	text-align: center;
+	border: 1px solid black;
+	font-size: 20px;
+}
