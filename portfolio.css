@@ -28,7 +28,7 @@ nav a {
 nav ul {
 	text-align: center;
 	font-size: 20px;
-	position: fixed;
+	
 	bottom: 0;
 	top: 5px;
 	right: 0;
@@ -111,4 +111,24 @@ address {
 	padding: 30px;
 	text-align: center;
 	font-size: 20px;
+	color: white;
+}
+/* style address link section */
+
+address a {
+
+		text-decoration: none;
+		color: white;
+}
+
+/* mouse over link color for contact info*/
+
+address a:hover {
+  color: black;
+}
+
+/* selected link for contact info */
+address a:active {
+  color: white;
+  box-shadow: .2px .2px black;
 }
