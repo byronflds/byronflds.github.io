@@ -6,129 +6,13 @@
 }
 
 
-/* style nav bar */
+nav {
+	margin-bottom: 20px;
+	background-color: #131bff;
+	
+}
 
-nav li {
-
+nav ul li {
 	list-style: none;
 	display: inline;
-	text-decoration: none;
-	
-
-}
-
-nav a {
-	text-align: center;
-
-	text-decoration: none;
-	color: #e11e1e;
-
-}
-
-nav ul {
-	text-align: center;
-	font-size: 20px;
-	
-	bottom: 0;
-	top: 5px;
-	right: 0;
-	left: 0;
-
-}
-
-nav {
-
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
-
-
-
-}
-
-/* mouse over link color */
-
-nav a:hover {
-  color: black;
-}
-
-/* selected link */
-nav a:active {
-  color: #e11e1e;
-  box-shadow: .2px .2px black;
-}
-
-/* styling about me section*/
-#aboutMe {
-
-	text-align: center;
-	color: #9e1515;
-	font-size: 20px;
-	margin-top: 100px;
-	padding: 25px;
-
-}
-
-/* style headers*/
-section h1 {
-
-	
-	text-align: center;
-	font-size: 50px;
-	color: #9e1515;
-	margin: 100px 0 100px 0;
-
-}
-
-/* style headers*/
-section h2 {
-
-	
-	text-align: center;
-	font-size: 30px;
-	color: #e11e1e;
-	margin: 0 0 50px 0;
-
-}
-
-/* style images*/
-
-img {
-	/* center image*/
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-/* center image*/
-margin-bottom: 120px;
-
-
-}
-/* style contact section */
-
-address {
-
-	background-color: #e11e1e;
-	padding: 30px;
-	text-align: center;
-	font-size: 20px;
-	color: white;
-}
-/* style address link section */
-
-address a {
-
-		text-decoration: none;
-		color: white;
-}
-
-/* mouse over link color for contact info*/
-
-address a:hover {
-  color: black;
-}
-
-/* selected link for contact info */
-address a:active {
-  color: white;
-  box-shadow: .2px .2px black;
 }
