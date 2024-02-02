@@ -9,10 +9,12 @@
 nav {
 	margin-bottom: 20px;
 	background-color: #131bff;
+	padding-bottom: 43px;
 	
 }
 
 nav ul li {
 	list-style: none;
 	display: inline;
+	font-size: 25px;
 }
