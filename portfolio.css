@@ -46,18 +46,18 @@ section#aboutMe {
 
 /* projects section styling */
 
-section#projects {
-	width: 50%;
-	margin-right: 50%;
+ section#projects { 
+	width: 100%;
 	margin-bottom: 100px;
 	font-size: 25px;
-	display: inline-block;
+	
 	
 
 }
 
 div.project {
-
+	float: left;
+	width: 50%;
 	text-align: center;
 	margin-bottom: 6%;
 	
@@ -90,7 +90,7 @@ section a h4 {
 
 section#skills {
 	margin-bottom: 100px;
-	margin-left: 50%;
+	margin-left: 25%;
 	font-size: 20px;
 	
 }
